@@ -1,0 +1,88 @@
+/*
+aviv ben shitrit , id: 313357766
+raz rachman      , id: 209045517
+
+
+*/
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: icon;
+}
+
+.app {
+  background-color: #a892ee;
+    padding: 3rem;
+    margin: 2rem auto;
+    width: 500rem;
+    max-width: 95%;
+    border-radius: 120px;
+    text-align: center;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.h1{
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 120px;
+
+  justify-content: center;
+  font-size: calc(15px + 2vmin);
+  color: white;
+}
+
+.app > header{
+  align-self: center;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
+  height: 50%;
+  padding: 0px 50px ;
+}
+
+.line{
+  height:10%;
+  width:10px;
+  margin: 0 50px;
+  border-radius:20px;
+  background-color:#4d4d4d;
+}
+
+.input {
+  font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 100%;
+}
+
+.btnSubmit {
+  font: inherit;
+  font-size: 20px;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 1px solid #ccc;
+        background-color: #160d1b;
+    color: white;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+
+.btnSubmit:hover {
+  background-color: #818080;
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+
+/*
+aviv ben shitrit , id: 313357766
+raz rachman      , id: 209045517
+
+
+*/
+
+.NewExpenseForm {
+    font: inherit;
+    font-weight: bold;
+      padding: 0rem;
+      
+      width: 30rem;
+      max-width: 100%;
+  }
+  
+  
+  /* Each label and input / label and select have to be in the same line. That's why we gave it the className "row" */
+  .row {
+    display: flex;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0.5rem;
+      margin: 1rem 0;
+      background-color: #4b4b4b;
+  }
+  
+  .row label {
+    width: 70%;
+  }
+  
+  .message {
+    text-align: center;
+    color: #4d4d4d;
+    font-weight: 700;
+    margin-top:20px;
+  }
