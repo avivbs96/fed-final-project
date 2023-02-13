@@ -85,7 +85,7 @@ const Report = ({ costs, reportDate, reportDateHandler }) => {
                 
                 <td>{cost.category}</td>
                 <code>
-                  <td>{new Date(cost.purchaseDate).toLocaleDateString()}</td>
+                <td>{new Date(cost.purchaseDate).toLocaleDateString('en-GB', {day: '2-digit', month: '2-digit', year: 'numeric'}).replace(/\//g, '.')}</td>
                 </code>{" "}
                 
               </tr>
